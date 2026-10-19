@@ -20,14 +20,14 @@ thiserror = "1.0.57"
 tokio = { version = "1.43.1", features = ["full"] }
 uuid = { version = "1.7.0", features = ["v4", "fast-rng"] }
 strum = { version = "0.25.0", features = ["derive"] }
-rand = "0.9.3"
+rand = "0.10.3"
 lazy_static = "1.4.0"
 text-splitter = { version = "0.6.3" }
 url = "2.5.0"
 regex = "1.10.3"
 quick-xml = { version = "0.31", features = ["serde"] }
 crossbeam-channel = "0.5.15"
-lopdf = "0.32.0"
+lopdf = "0.35.0"
 reqwest = { version = "0.11.25", features = ["json", "stream", "blocking"] }
 futures = "0.3.30"
 anyhow = "1.0.86"
