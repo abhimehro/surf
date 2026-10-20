@@ -58,6 +58,7 @@
     "expr-eval-fork": "^3.0.0",
     "gray-matter/js-yaml": "3.14.2",
     "front-matter/js-yaml": "3.14.2",
-    "electron-builder/**/js-yaml": "4.1.1"
+    "electron-builder/**/js-yaml": "4.1.1",
+    "**/vite-plugin-markdown/markdown-it": "^14.3.2"
   }
 }
