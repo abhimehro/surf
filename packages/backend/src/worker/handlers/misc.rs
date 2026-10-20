@@ -117,12 +117,8 @@ impl Worker {
             .create_app(query, model, custom_key, inline_images)?;
 
         for chunk in stream.by_ref() {
-            match chunk {
-                Ok(data) => {
-                    chunk_callback = self.send_callback(chunk_callback, data)?;
-                }
-                Err(err) => return Err(err),
-            }
+            let data = chunk?;
+            chunk_callback = self.send_callback(chunk_callback, data)?;
         }
         self.send_done_callback(done_callback)?;
         Ok(())
@@ -373,13 +369,9 @@ impl Worker {
 
         let mut assistant_message = String::new();
         for chunk in chat_result.stream.by_ref() {
-            match chunk {
-                Ok(data) => {
-                    assistant_message.push_str(&data);
-                    callback = self.send_callback(callback, data)?;
-                }
-                Err(err) => return Err(err),
-            }
+            let data = chunk?;
+            assistant_message.push_str(&data);
+            callback = self.send_callback(callback, data)?;
         }
 
         Ok((assistant_message, chat_result))
