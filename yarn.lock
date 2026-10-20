@@ -3984,10 +3984,10 @@ detect-newline@^4.0.0:
   resolved "https://registry.npmjs.org/detect-newline/-/detect-newline-4.0.1.tgz"
   integrity sha512-qE3Veg1YXzGHQhlA6jzebZN2qVf6NX+A7m7qlhCGG30dJixrAQhYOsJjsnBjJkCSmuOPpCk30145fr8FV0bzog==
 
-devalue@^5.4.1, devalue@^5.6.2:
-  version "5.8.1"
-  resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.8.1.tgz#f27290d3a324e2eb20c2714369b01b8ec4de4c61"
-  integrity sha512-4CXDYRBGqN+57wVJkuXBYmpAVUSg3L6JAQa/DFqm238G73E1wuyc/JhGQJzN7vUf/CMphYau2zXbfWzDR5aTEw==
+devalue@5.9.3, devalue@^5.6.2:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.9.3.tgz#f4ea8226c0860c5e2a5ea63985afff70e086721d"
+  integrity sha512-xRumYOCUZN/EesqHEU3WOXanOZNvfZFZ/o1AHVFDX1yI0UAkZkOgDXt341CzKoBVIkgQba55/+DjGBKrIoKcHw==
 
 devlop@^1.0.0, devlop@^1.1.0:
   version "1.1.0"
