@@ -62,7 +62,7 @@
     "@horizon/eslint-config": "*",
     "@horizon/typescript-config": "*",
     "@skilitics-public/two-fingers": "^2.1.0",
-    "@sveltejs/kit": "^2.31.1",
+    "@sveltejs/kit": "^3.1.0",
     "@sveltejs/package": "^2.4.1",
     "@sveltejs/vite-plugin-svelte": "^6.1.2",
     "@tiptap/extension-details": "^2.26.3",

@@ -123,7 +123,7 @@
     "@deta/types": "*",
     "@horizon/eslint-config": "*",
     "@horizon/typescript-config": "*",
-    "@sveltejs/kit": "^2.31.1",
+    "@sveltejs/kit": "^3.1.0",
     "@sveltejs/package": "^2.4.1",
     "date-fns": "^3.2.0",
     "p-queue": "^8.0.1",
